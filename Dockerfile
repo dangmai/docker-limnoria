@@ -1,7 +1,7 @@
 FROM python:3-alpine
 MAINTAINER Dang Mai <contact@dangmai.net>
 
-ENV LIMNORIA_VERSION master-2017-04-16
+ENV LIMNORIA_VERSION master-2018-09-10
 
 RUN apk --no-cache add git bash openssl ca-certificates vim less \
     && pip install -r https://raw.githubusercontent.com/ProgVal/Limnoria/${LIMNORIA_VERSION}/requirements.txt \

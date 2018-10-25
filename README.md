@@ -34,5 +34,5 @@ docker create -v /var/supybot/data --name botdata tianon/true true
 docker run --volumes-from botdata -t limnoria
 ```
 
-After you do that, you can follow Docker's [backup and restore guide](https://docs.docker.com/engine/tutorials/dockervolumes/#/backup-restore-or-migrate-data-volumes)
+After you do that, you can follow Docker's [backup and restore guide](https://docs.docker.com/storage/volumes/#backup-restore-or-migrate-data-volumes)
 to make sure your data is safe.
